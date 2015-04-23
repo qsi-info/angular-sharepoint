@@ -16,7 +16,6 @@
   "dependencies": {
     "angular": "1.2.28",
     "angular-route": "1.2.28",
-    "ngstorage": "~0.3.0",
     "bootstrap": "~3.3.4",
     "font-awesome": "~4.3.0"
   }
