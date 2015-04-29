@@ -108,7 +108,7 @@ angular.module('ngSharePoint', ['ngRoute'])
         $rootScope.me = user;
         $rootScope.isInitialize = true;
         if ($rootScope.sp.isWebPart) {
-          SharePoint.resizeCWP();
+          SharePoint.resizeCWP(800);
         }
         $location.path('/');
       });     
